@@ -596,6 +596,16 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
+hero-content {
+   animation: fadeOut 1s ease 5s forwards;
+
+}
+
+@keyframes fadeOut {
+  to {
+ opacity: 0;
+    visibility: hidden;
+  }
 
 @keyframes zoomInOut {
   0%, 100% {
